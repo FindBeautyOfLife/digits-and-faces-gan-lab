@@ -1,0 +1,53 @@
+# Local datasets (download separately; see README.md)
+/data/
+/datasets/
+/downloads/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+*.rar
+
+# Python bytecode, virtual environments, and tool caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local editor and OS files
+/PRIVACY_REVIEW.md
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.kaggle/
+kaggle.json
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Training artifacts (keep the existing result figures)
+/checkpoints/
+/outputs/
+/runs/
+/wandb/
+*.pt
+*.pth
+*.ckpt
+*.log
+events.out.tfevents.*
